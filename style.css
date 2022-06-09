@@ -9,6 +9,7 @@ body {
  background-color: #eee;
     font-family: 'Work Sans', sans-serif;
 }
+
 .container {
     max-width: 1600px;
     margin: 30px auto;
@@ -73,10 +74,8 @@ button{
 }
 
 section {
-   width: 100%;
-  
- display: grid;
- grid-template-columns: repeat(3,1fr);
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
  grid-template-rows: 300px;
  gap: 20px;
 }
@@ -84,11 +83,12 @@ section >.imag-1 {
     background-image: url(./images/white-box.jpg);
     background-position: center;
     background-size: cover;
+   
 }
 section >.imag-2 {
     background-image: url(./images/room.jpg);
-   
     background-size: cover;
+   
 }
 section >.imag-3 {
     background-image: url(./images/black-white.jpg);
@@ -114,6 +114,7 @@ section div >img {
     padding: 5px;
     margin-left: 30px;
     margin-top: 120px;
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.377);
 }
 nav {
     position: relative;
@@ -121,15 +122,17 @@ nav {
 nav .hammenu ul {
     display: none;
     position: absolute;
-    top: 25px;
+    top: 18px;
     right: 0;
     background-color: #eee;
     padding: 20px;
-   
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 3px rgba(238, 238, 238, 0.692);
+   height: 140px;
 }
 nav .hammenu  ul li {
     list-style-type: none;
-    padding: 5px;
+    padding: 8px;
  
 }
 nav .hammenu  ul li a {
