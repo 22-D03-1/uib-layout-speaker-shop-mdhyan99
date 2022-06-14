@@ -1,0 +1,23 @@
+{
+  "name": "uib-layout-speaker-shop-mdhyan99",
+  "version": "1.0.0",
+  "description": "Recreate the mock-up below as accurately as possible, utilising flexbox, positioning, and principles of UI/UX design.",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass -w scss/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/22-D03-1/uib-layout-speaker-shop-mdhyan99.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/22-D03-1/uib-layout-speaker-shop-mdhyan99/issues"
+  },
+  "homepage": "https://github.com/22-D03-1/uib-layout-speaker-shop-mdhyan99#readme",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
+}

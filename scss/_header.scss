@@ -1,0 +1,72 @@
+header {
+    width: 100%;
+    padding:30px 50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon>h1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    gap: 30px;
+} 
+nav>a {
+    text-decoration: none;
+}
+.text {
+    margin: 120px;
+}
+.text h3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.text >p {
+margin-top: 30px;
+font-size: 19px;
+font-weight: 900;
+}
+button{
+    color: white;
+    background-color: black;
+    padding: 8px;
+    margin-left: 60%;
+}
+nav .hammenu ul {
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 3px rgba(238, 238, 238, 0.692);
+   height: 140px;
+}
+nav .hammenu  ul li {
+    list-style-type: none;
+    padding: 8px;
+ 
+}
+nav .hammenu  ul li a {
+    text-decoration: none;
+  
+}
+nav {
+    position: relative;
+}
+
+nav a{
+    display: block;
+        }

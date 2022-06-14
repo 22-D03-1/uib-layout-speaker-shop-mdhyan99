@@ -1,0 +1,37 @@
+section {
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+ grid-template-rows: 300px;
+ gap: 20px;
+}
+section >.imag-1 {
+    background-image: url(./images/white-box.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+section >.imag-2 {
+    background-image: url(./images/room.jpg);
+    background-size: cover;
+   
+}
+section >.imag-3 {
+    background-image: url(./images/black-white.jpg);
+    background-position: center;
+    background-size: cover;
+}
+section div >h1 {
+    color: white;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+section div >img {
+    background-color: white;
+    border-radius: 50% 50%;
+    width: 25px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 120px;
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.377);
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width:700px) {
+    .text {
+        margin: 120px 30px;
+    }
+    button{
+       font-size: 10px;
+       width: 150px;
+       margin-left: 50%;
+       margin-top: 20px;
+    }
+    section {
+     grid-template-columns: repeat(1,1fr);
+    
+    }
+
+    nav a{
+display: none;
+    }
+    .icon >h1 
+    {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .container   nav .hammenu:hover ul {
+        display: block;
+            }
+            nav .hammenu  ul li a{
+                display: block;
+            }
+}
+
+
+@media screen and (min-width:700px)  {
+ .container   nav .hammenu  i {
+         display: none ; 
+    }
+
+}
